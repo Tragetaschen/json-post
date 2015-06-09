@@ -1,0 +1,19 @@
+﻿{
+  "webroot": "wwwroot",
+  "userSecretsId": "aspnet5-Repro-64b5408a-3b27-47a2-af5b-44678023cb9b",
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Microsoft.AspNet.Mvc": "6.0.0-beta4",
+    "Microsoft.AspNet.Server.IIS": "1.0.0-beta4",
+    "Microsoft.AspNet.Server.WebListener": "1.0.0-beta4"
+  },
+
+  "commands": {
+    "web": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.WebListener --server.urls http://localhost:5000",
+  },
+
+  "frameworks": {
+    "dnx451": { }
+  }
+}
